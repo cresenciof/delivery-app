@@ -3,9 +3,12 @@
  * https://reactnavigation.org/docs/typescript/
  */
 
+import { WELCOME_SCREEN } from "./screens/WelcomeScreen";
+
 export type RootStackParamList = {
   Root: undefined;
   NotFound: undefined;
+  [WELCOME_SCREEN]: undefined;
 };
 
 export type BottomTabParamList = {
