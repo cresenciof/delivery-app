@@ -25,7 +25,7 @@ jobs:
         run: yarn install
 
       - name: Run tests
-      - run: yarn test
+        run: yarn test
 
       - name: Diagnose issues with the project
-      - run: expo doctor
+        run: expo doctor
